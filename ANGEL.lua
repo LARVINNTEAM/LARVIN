@@ -9,13 +9,16 @@ database = redis.connect('127.0.0.1', 6379)
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,2044104713 ,1223431389}   
+
+sudo_users = {SUDO, 2044104713  ,1223431389}   
+
 print([[
 _        _    ______     _____ _   _ 
 | |      / \  |  _ \ \   / /_ _| \ | |
 | |     / _ \ | |_) \ \ / / | ||  \| |
 | |___ / ___ \|  _ < \ V /  | || |\  |
 |_____/_/   \_\_| \_\ \_/  |___|_| \_|
+
 > CH › @hueerr55
 ~> DEVELOPER › @TTITITl 
 ]])
